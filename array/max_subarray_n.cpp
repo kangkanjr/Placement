@@ -27,7 +27,7 @@ int main(){
   int sum = 0;
 
   for(int i=0;i<n;i++){
-    sum = max(a[i], sum+a[i]);
+    sum = max(a[i], sum+a[i]);  // current element or prev sum+ curr element
     ans = max(ans, sum);
   }
 
